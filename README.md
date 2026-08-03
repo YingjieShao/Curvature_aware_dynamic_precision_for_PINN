@@ -28,3 +28,12 @@
 └── README.md
 ```
 
+## License
+
+Except where otherwise noted, this repository is licensed under the
+[MIT License](LICENSE).
+
+The file [`code/ssbroyden2_torch.py`](code/ssbroyden2_torch.py) is licensed
+under the BSD 3-Clause License. Its complete copyright notices, license
+conditions, and disclaimers are provided in
+[THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES).
