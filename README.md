@@ -16,10 +16,10 @@
 ```text
 .
 ├── code/
-│   ├── percision_dynamic_switching.py
-│   ├── convection_full_slq_hessian_esd_update.py
-│   ├── plot_and_result_summary.py
-│   └── ssbroyden2_torch.py
+│   ├── percision_dynamic_switching.py #main script for curvature aware dynamic percision with 4 1D PDE failture mode benchmarks, 2 PDE systems and one 50D heat equation. This script also include implementation for adaptive sampling and weighting method for PINN. Detail comment is include in corresponding functions.
+│   ├── convection_full_slq_hessian_esd_update.py # Appendix Empirical validation of the curvature proxy
+│   ├── plot_and_result_summary.py # script for generate table and figures for paper
+│   └── ssbroyden2_torch.py #The file that implement ssbroyden2 optimiser with pytorch, which is under BSD 3-Clause License
 ├── figure/
 │   └── generated paper figures
 ├── LICENSE
